@@ -63,6 +63,7 @@ List of available scripts for Folgen can be found [here](http://todo)
 
 List o basic scripts:
 
+* `+interval{'duration'}` specify the interval with which service will followup email 
 * `+days{[day|..]` specify by which days email should be followed up
 * `+!days{[day|..]}` specify by which days email should not be sent, send it in all the other days
 * `+macro{'Macro1'[|var..]}` execute script that should return successful result before following up
